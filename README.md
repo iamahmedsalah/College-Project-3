@@ -1,4 +1,3 @@
-s
 # College-Project-3
 Website About Fit and Vegan With Ordering Bill
 # Fit - Licious
