@@ -1,0 +1,33 @@
+.container {
+  max-width: 960px;
+}
+body{ font-family: 'Kalam', cursive;}
+.chekTitle{ color: #dc3545; font-weight: bold;}
+.products-container {
+display: grid;
+  
+}
+.fa-trash{
+  display: block;
+  float: right;
+}
+.fa-arrow-left ,.fa-arrow-right {
+  float: right;
+  padding: 5px;
+}
+
+.products { 
+  color: #dc3545;
+  font-size: 20px;
+}
+
+.Price { color: gray;
+}
+.Count{color: gray;
+  padding-bottom: 15px;
+}
+
+.total{ color:#dc3545;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
