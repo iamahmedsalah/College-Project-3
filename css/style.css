@@ -1,0 +1,337 @@
+body{ font-family: 'Kalam', cursive;}
+
+.navbar-light .navbar-nav .nav-link:hover{color: #dc3545; cursor: pointer;}
+
+/* Start Scoial icons */
+.field {
+	display: flex;
+	width: 230px;
+	justify-content: space-around;}
+.sns-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    transform: rotateX(45deg);
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;}
+.sns-btn--twitter {background-color: #1da1f2;}
+.sns-btn--facebook {background-color: #3b5998;}
+.sns-btn--instagram {background-color: #dd2b75;}
+.sns-btn:hover {
+    transform: scale(1.2);
+    box-shadow: none;}
+.sns-btn__icon {
+    font-size: 33px;
+    letter-spacing: 0.1em;
+    color: #fff;}
+/* End Scoial icons */
+
+/* Order btn */
+.Ordering{color: black;}
+ul + button {
+    float: right;
+    width: 100px;}
+
+/* Main photo */
+.banner{ float: right; }
+/* Main text */
+.textBanner{
+    font-size: 110px;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #251f56 ;
+    font-weight: bold;
+}
+h2 + p {padding-left: 50px;
+        padding-top: 50px;
+        font-weight: 500;
+}
+ /* section about style  */
+.imgAbout{ width: 800px;
+        padding-top: 10px;}
+.HS { position:relative ;
+    transform: translateX(900px)
+    translateY(-650px);
+    width: 400px;}
+.H2 { padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    color:#251f56 ;
+}
+ /* Text betwwen Section  */
+.H3 , .H5 , .H6 { 
+    padding-top: 100px;
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+}
+.H1 {
+    font-weight: 500;
+}
+.bug1{ height: 700px;}
+
+
+ /* end of section about style */
+
+
+/* Menu button*/
+.menuBtn {margin-left: 150px;
+margin-top: 50px;
+align-self: center;
+background-color: #fff;
+border-style: solid;
+border-width: 2px;
+border-color: #dc3545;
+box-shadow: rgba(245, 3, 3, 0.2) 15px 28px 25px -18px;
+box-sizing: border-box;
+color: #dc3545;
+cursor: pointer;
+display: inline-block;
+font-family: 'Kalam', cursive;
+font-size: 30px;
+line-height: 23px;
+outline: none;
+padding: .75rem;
+border-bottom-left-radius: 15px 255px;
+border-bottom-right-radius: 225px 15px;
+border-top-left-radius: 255px 15px;
+border-top-right-radius: 15px 225px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+.menuBtn:hover {
+box-shadow: rgba(252, 0, 0, 0.3) 2px 8px 8px -5px;
+transform: translate3d(0, 2px, 0);
+}
+.menuBtn:focus {
+box-shadow: rgba(243, 3, 3, 0.3) 2px 8px 4px -6px;
+}
+
+/*  Media Queris fix bug in samrt phones veiw */
+
+@media (max-width: 1190px) {    
+    .bg2{ min-width: 980px}
+    .menuBtn{ margin-left: 40%;} 
+    h2 + p{ font-size: 25px; text-align: center;}
+    h2{ text-align:center;}}
+@media (max-width: 1090px) {  
+    .bug1{height: auto; text-align: center;}
+        .HS  {  transform: none;
+        text-align: center;
+        margin-left:30%;
+        font-size: 30px;}}
+
+    /*Style  Food Section  */
+.section-products {color: #444444;}
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.section-products .header { margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.A{
+    width: 100%;
+    transition: all ease-in-out .4s;
+}
+.A:hover{
+    transform: scale(1.25) rotate(2deg)
+}
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color:  #444444;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+.section-products .single-product .part-1 ul li a:hover {color: #dc3545;}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+ /* End Food Section */
+  /* Start Menu Section  */
+.foodMenus{ padding-top: 50px;}
+.menusTitle{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size:40px;
+    color:black ;
+}
+.foodTitle{color: #251f56 ;}
+.infoFood{
+    color:grey;
+    font-size: smaller;
+}
+.price{ color: #fe302f;
+    font-size: 20px;}
+  /* End Menu Section  */
+ /* Start footer */
+
+.H7{padding-top: 70px;
+    text-align: center;
+    margin-left:10px;
+    color: #dc3545;
+    padding-bottom: 50px;
+    }
+input[type = "text"], [type = "email"] { 
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #dc3545;
+    padding: 20px 10px;
+    color: rgb(2, 2, 2);
+    border-radius: 24px;
+}
+#subject{
+    width: 440px;
+}
+#message{ border: 2px solid #dc3545;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+    border-radius: 24px;
+    width: 440px;
+    height: 110px;
+
+}
+
+input[type = "submit"]{
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #dc3545;
+    padding: 14px 40px;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+input[type = "submit"]:hover{background: #dc3545;
+color: #ffffff;}
+.contact-form{ margin-left: 150px;}
+input + h1,p{ color: #dc3545;}
+
+.bg2{width: 620px; ; 
+        height: 690px;
+        float: right;}
+.col-lg{ background-color: lightgray;}
+
+.footerIcon{ padding-right: 20px; 
+font-size: 30px;
+color: #dc3545;}
+#face:hover{ color: #3b5998;}
+#inta:hover{ color: #dd2b75;}
+
+/* end of footer section */
+ /* go to up btn */
+
+#myBtn {
+position: inherit;
+background: #dc3545;
+border: 1px solid #dc3545;
+border-radius: 6px;
+box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+color: #FFFFFF;
+cursor: pointer;
+font-size: 16px;
+font-weight: 800;
+line-height: 16px;
+min-height: 40px;
+outline: 0;
+padding: 12px 14px;
+text-align: center;
+touch-action: manipulation;
+z-index: 99;
+float: right;
+}
+
+#myBtn:hover,
+#myBtn:active {
+background-color: initial;
+background-position: 0 0;
+color: #dc3545;
+}
+
+#myBtn:active {
+opacity: .5;
+}
