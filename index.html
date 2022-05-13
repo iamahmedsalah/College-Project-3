@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\style.css">
+    <script src="https://kit.fontawesome.com/74312a14fd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200&display=swap" rel="stylesheet">
+    <title>Fit Licious</title>
+</head>
+
+<body> 
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm p-4"  aria-label="Eleventh navbar example">
+	<div class="container" >   
+		<a  class="navbar-brand fs-1 text-danger" href="#" > Fit Licious</a>
+		<button class="navbar-toggler collapsed"  type="button"  data-bs-toggle="collapse" data-bs-target="#navbarsExample09"  aria-controls="navbarsExample09" aria-expanded="false"  aria-label="Toggle navigation" > 
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse " id="navbarsExample09">
+			<ul class="navbar-nav mx-auto  ">
+				<li class="nav-item ms-2 fs-4 text-uppercase"> 
+					<a class="nav-link " href = "#section1">Home</a> </li>
+				<li class="nav-item ms-2 fs-4 text-uppercase "> 
+					<a class="nav-link "  href = "#section2">About</a> </li>
+				<li class="nav-item ms-2 fs-4 text-uppercase "> 
+					<a class="nav-link "  href = "#section4">Food</a> </li>
+				<li class="nav-item ms-2 fs-4 text-uppercase "> 
+					<a class="nav-link "  href = "#section5">Contact US</a> </li>
+			</ul>
+			<a href="indexCheckOut.html"><button type="button" class="btn btn-outline-danger mx-5  position-relative  btn-lg" > Order Now <em class="fa-solid fa-cart-arrow-down"></em> <span class="nm">0</span></button></a>
+			<div class="field">
+				<a  class="sns-btn sns-btn--facebook" >
+					<em class="sns-btn__icon fab fa-facebook-f"></em>
+				</a>	
+				<a  class="sns-btn sns-btn--twitter" >
+					<eem class="sns-btn__icon fab fa-twitter"></em> 
+				</a>
+				<a class="sns-btn sns-btn--instagram">
+					<eem class="sns-btn__icon fab fa-instagram"></em> 
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+<!-- end of nav bar -->
+                
+<section id="section1">
+                <!-- Section1 with banner -->
+                <div>
+                <img   data-aos="fade-left" data-aos-duration="1500" class=" banner" src="assets\img\banner1.jpg" alt="food1">
+                <h2  data-aos="fade-right"  data-aos-duration="1500" class="textBanner"> The Delicious Food  House </h2>
+                <p data-aos="fade-right" data-aos-duration="1500"  >Fit Licious is a  vegan website. We have awesome recipes and the most talented fit coach in town.
+                Our principle is live a healthy life, that can happen with vegan foods.
+                </p>
+                <!--  End of Section1 with banner -->
+                <!-- menu btn -->
+                <button  onclick="menuScoll() "  id="menuBtn" data-aos="fade-up-right"  class="menuBtn" role="button">Discover Menu </button>
+                </div>
+</section>
+<!-- About Section -->
+<section id="section2" >
+                <h1 class="H3" >About Us</h1>
+                <div class="bug1"  data-aos="fade-left" data-aos-duration="1500">
+                    <img data-aos="slide-right"  data-aos-duration="1500" class= "imgAbout " src="assets\img\beans.png" alt="about">
+                    <div  class="HS">
+                    <h1 class="H2" >Our Delicious Food</h1>
+                    <p class="H1"> The food on our menu is prepared fresh every day, so you won't find sell by dates on our fresh sandwiches and salads</p>
+                    <img src="assets\img\signature.png" alt="food12" >
+                </div>
+</section>
+<!-- End about section -->
+<!-- Start  Food Section  -->
+<section id="section3"  class="section-products">
+		<div class="container">
+				<div class="row justify-content-center text-center">
+						<div class="col-md-8 col-lg-6">
+								<div class="header">
+										<h3>Food Products</h3>
+										<h2>Popular Products</h2>
+								</div>
+						</div>
+				</div>
+				<div class="row">
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-1" class="single-product">
+										<div class="part-1">
+											<img class="A" src="assets\img\item1.jpg" alt="">
+											<span class="discount">15% off</span>
+												<ul>
+														<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Legumes</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-2" class="single-product">
+										<div class="part-1">
+											<img class="A" src="assets\img\item2.jpg" alt="">
+												<ul>
+														<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Calcium fortifie</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-3" class="single-product">
+										<div class="part-1">
+											<img  class="A" src="assets\img\06.jpg" alt="">
+											<span class="discount">15% off</span>
+												<ul>
+														<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Seaweed Roulade</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-4" class="single-product">
+										<div class="part-1">
+											<img class="A" src="assets\img\07.jpg" alt="">
+												<span class="new">new</span>
+												<ul>
+														<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Vegan Molasses</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-1" class="single-product">
+										<div class="part-1">
+											<img class="A" src="assets\img\special-2.png" alt="food3">
+											<span class="discount">15% off</span>	
+												<ul>
+														<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Potato Stem</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-2" class="single-product">
+										<div class="part-1">
+											<img class="A" src="assets\img\special-1.png" alt="">
+												
+												<ul>
+														<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>	
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Nutritional yeast</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-3" class="single-product">
+										<div class="part-1">
+											<img class="A" src="assets\img\special-3.png" alt="">
+											<span class="discount">15% off</span>
+												<ul>
+														<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Choline rich</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-4" class="single-product">
+										<div class="part-1">
+											<img  class="A" src="assets\img\special-4.png" alt="">
+												<span class="new">new</span>
+												<ul>
+													<li><a class="add-carts" href="#"><em class="fas fa-shopping-cart"></em></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Tofu Steak</h3>
+												<h4 class="product-price">$49</h4>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+</section>
+<!-- End of Food Section -->
+<!-- Start Menu Food -->
+<section id="section4"  >
+	<h2 class="H5">Our Food Menu</h2>
+	<div class="container">
+		<div class="row foodMenus" >
+		<div class="col">
+			<h3 class="menusTitle" >Main Dishes</h3>
+			<ul>
+				<li>
+					<h4 class="foodTitle" >Chicken Breast</h4>
+					<p class="infoFood" >Paupiette of chicken, blue cheese, rosemary & beans.	</p>
+					<span class="price" >$33</span>
+				</li>
+				<li><h4 class="foodTitle" >Salmon Steak</h4>
+					<p class="infoFood" >Salmon, butter, lemon juice, onion, garlic & salad.</p>
+					<span class="price" >$41</span>
+				</li>
+				<li><h4 class="foodTitle" >Grilled Fillet</h4>
+					<p class="infoFood" >Pork fillet, ginger, garlic, honey, pepper & canola oil.</p>
+					<span class="price" >$33</span>
+				</li>
+				<li><h4 class="foodTitle" >Chicken Crispy</h4>
+					<p class="infoFood" >Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+					<span class="price" >$26</span>
+				</li>
+				<li><h4 class="foodTitle" >Roasted Steak Roulade</h4>
+					<p class="infoFood" >Mint parsley with apple cider vinegar, salt & spices.</p>
+					<span class="price" >$29</span>
+				</li>
+			</ul>
+		</div>
+		<div class="col">
+			<h3 class="menusTitle" >Specialties</h3>
+			<ul>
+				<li>
+					<h4 class="foodTitle" > Legumes</h4>
+					<p class="infoFood" >Paupiette of chicken, blue cheese, rosemary & beans.	</p>
+					<span class="price" >$33</span>
+				</li>
+				<li><h4 class="foodTitle" >Tofu Steak</h4>
+					<p class="infoFood" >Salmon, butter, lemon juice, onion, garlic & salad.</p>
+					<span class="price" >$41</span>
+				</li>
+				<li><h4 class="foodTitle" >Hemp, flax</h4>
+					<p class="infoFood" >Pork fillet, ginger, garlic, honey, pepper & canola oil.</p>
+					<span class="price" >$33</span>
+				</li>
+				<li><h4 class="foodTitle" >Calcium-fortified</h4>
+					<p class="infoFood" >Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+					<span class="price" >$26</span>
+				</li>
+				<li><h4 class="foodTitle" >Seaweed Roulade</h4>
+					<p class="infoFood" >Mint parsley with apple cider vinegar, salt & spices.</p>
+					<span class="price" >$29</span>
+				</li>
+			</ul>
+		</div>
+		<div class="col">
+			<h3 class="menusTitle" >Desserts</h3>
+			<ul>
+				<li>
+					<h4 class="foodTitle" >Nutritional yeast</h4>
+					<p class="infoFood" >Paupiette of chicken, blue cheese, rosemary & beans.	</p>
+					<span class="price" >$33</span>
+				</li>
+				<li><h4 class="foodTitle" >Choline-rich foods</h4>
+					<p class="infoFood" >Salmon, butter, lemon juice, onion, garlic & salad.</p>
+					<span class="price" >$41</span>
+				</li>
+				<li><h4 class="foodTitle" >Fruits and vegetables</h4>
+					<p class="infoFood" >Pork fillet, ginger, garlic, honey, pepper & canola oil.</p>
+					<span class="price" >$33</span>
+				</li>
+				<li><h4 class="foodTitle" >Potato Stem</h4>
+					<p class="infoFood" >Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+					<span class="price" >$26</span>
+				</li>
+				<li><h4 class="foodTitle" >Vegan Molasses</h4>
+					<p class="infoFood" >Mint parsley with apple cider vinegar, salt & spices.</p>
+					<span class="price" >$29</span>
+				</li>
+			</ul>
+		</div>
+		</div>
+</section>
+<!-- End of menu section  -->
+<!-- Start contact section -->
+<section id="section5" >
+	<h2 class="H6">Contact </h2>
+	<div class="container-fluid">
+		<div class="row">
+			<button onclick="topFunction()" id="myBtn" title="Go to top"><em class="fa-solid fa-arrow-up-long"></em></button>
+		<div class="col-lg" data-aos="fade-up" >
+			<h2 class="H7">Contact US</h2>
+			<form class="contact-form" >
+			<input type="text"  id="UserName" placeholder=" Full Name" >
+			<input type="email"id="email" placeholder="Email" >
+			<input type="text"id="subject" placeholder="Subject" >
+			<textarea id="message" placeholder="Message"> </textarea>
+			<input type="submit"  value="Send">
+			<h1>Info:</h1>
+			<p>Email: Fit-licous@gmail.com</p>
+			<p>Phone: 03 015555577</p>
+			<ul>
+				<a id="face" class="footerIcon"  href="#"><em class="fa-brands fa-facebook"></em></a>
+				<a id="inta" class="footerIcon"  href="#"><em class="fa-brands fa-instagram"></em></a> 
+			</ul>
+			<p>© Design by <a href="#">Salah</a></p>
+		    </form>
+		</div>
+		<div class="col-lg-6">
+			<img class="bg2" src="assets\img\image.jpg" alt="finalAvout"  >
+		</div>
+</section>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+	<script src="js\app.js" async ></script>
+	<script src="js\form-validation.js"></script>
+    <script src="js\popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
