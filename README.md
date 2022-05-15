@@ -16,11 +16,14 @@ Website About Fit and Vegan With Ordering Bill
 - Desgined  Website
 1. Landing page
 2. Billing page for ordering
+3. login page 
   
 - [ ] Data Base
 - 
 - 
 - [ ] Back-End
+- [x] Contact Us
+- [ ] login
 - Setting up Server environment in server.js file.
 - To set up Server environment, make sure that the Node and packages (express, cors and body-parser) installed
 - Added POST and GET routes to ensure correct retrieval of data from the server.
